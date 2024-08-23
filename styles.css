@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.addbook {
+    padding: 40px;
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+form{
+    display: none;
+    border: 2px solid grey;
+    width: 500px;
+    padding: 20px;
+    margin: 50px auto;
+
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    border-color: #E5E7EB;
+    border-width: 0.5px;
+}
+
+input:focus{
+    border-color: black;
+    box-shadow: 4px black;
+}
+.container{
+    margin: 10px;
+}
+.submit-btn{
+    padding: 20px;
+    color: black;
+    background-color: aqua;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.container2 > div{
+    padding: 60px;
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-btn{
+    margin-top: 10px;
+    color: black;
+    background-color: bisque;
+    cursor: pointer;
+
+}
